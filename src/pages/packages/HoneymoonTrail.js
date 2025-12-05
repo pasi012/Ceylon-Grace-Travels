@@ -343,7 +343,7 @@ function HoneymoonTrail() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -351,7 +351,7 @@ function HoneymoonTrail() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -778,7 +778,7 @@ function HoneymoonTrail() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -786,7 +786,7 @@ function HoneymoonTrail() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1528,7 +1528,7 @@ function HoneymoonTrail() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1536,7 +1536,7 @@ function HoneymoonTrail() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1827,15 +1827,32 @@ function HoneymoonTrail() {
                                     style={{ border: 0 }}
                                     loading="lazy"
                                     allowFullScreen
-                                    src={`https://www.google.com/maps/embed/v1/directions?key=AIzaSyAMSBflSdMe2iqCbOsRtIGLTUC-SOjBxmg&origin=CITY1&destination=CITY2
-                                        &origin=Colombo,Sri+Lanka
-                                        &destination=Galle,Sri+Lanka
-                                        &waypoints=Kandy|Sigiriya|Anuradhapura|Polonnaruwa|Ella|Yala|Mirissa
+                                    src={`https://www.google.com/maps/embed/v1/directions?
+                                        key=AIzaSyAg2I4Iihq-LBTKqNvTpr77o1MX550vYEo
+                                        &origin=Bandaranaike+International+Airport
+                                        &destination=Colombo+International+Airport
+                                        &waypoints=
+                                            Negombo|
+                                            Sigiriya|
+                                            Dambulla|
+                                            Anuradhapura|
+                                            Trincomalee|
+                                            Kandy|
+                                            Kitulgala|
+                                            Nuwara+Eliya|
+                                            Horton+Plains+National+Park|
+                                            Ella|
+                                            Yala|
+                                            Mirissa|
+                                            Galle|
+                                            Madu+River+(Balapitiya)|
+                                            Kosgoda
                                         &avoid=tolls|highways`
+                                        .replace(/\s+/g, "")
                                     }>
                                 </iframe>
-
                             </div>
+
 
                             <div className="route-info">
                                 <p><strong>Distance:</strong> 958.5 km</p>
@@ -1879,7 +1896,7 @@ function HoneymoonTrail() {
                                             `;
 
                                     // ✅ SEND WHATSAPP
-                                    const whatsappNumber = "94771087217"; // your WhatsApp number
+                                    const whatsappNumber = "94773562768"; // your WhatsApp number
                                     const whatsappURL =
                                         "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1887,7 +1904,7 @@ function HoneymoonTrail() {
 
                                     // ✅ SEND EMAIL
                                     const mailto =
-                                        "mailto:ceylongracetravels@gmail.com" +
+                                        "mailto:pearlceylontours01@gmail.com" +
                                         "?subject=" + encodeURIComponent("New Tour Booking") +
                                         "&body=" + encodeURIComponent(fullMessage);
 
@@ -2168,7 +2185,7 @@ function HoneymoonTrail() {
                         <img src={require("../../assets/hile.png")} className="cta-icon" alt="icon" />
                         <div className="cta-text">
                             <h2>Ready To Adventure And Enjoy Natural</h2>
-                            <p>Reach Ceylon Grace Travels For A Secure, Luxurious, And Unforgettable Adventure!</p>
+                            <p>Reach Pearl Ceylon Tours For A Secure, Luxurious, And Unforgettable Adventure!</p>
                         </div>
                     </div>
 

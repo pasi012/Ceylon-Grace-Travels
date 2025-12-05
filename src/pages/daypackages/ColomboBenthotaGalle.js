@@ -205,7 +205,7 @@ function ColomboBenthotaGalle() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -213,7 +213,7 @@ function ColomboBenthotaGalle() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -605,7 +605,7 @@ function ColomboBenthotaGalle() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -613,7 +613,7 @@ function ColomboBenthotaGalle() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1009,7 +1009,7 @@ function ColomboBenthotaGalle() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1017,7 +1017,7 @@ function ColomboBenthotaGalle() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1303,14 +1303,26 @@ function ColomboBenthotaGalle() {
                                     style={{ border: 0 }}
                                     loading="lazy"
                                     allowFullScreen
-                                    src={`https://www.google.com/maps/embed/v1/directions?key=AIzaSyAMSBflSdMe2iqCbOsRtIGLTUC-SOjBxmg&origin=CITY1&destination=CITY2
-                                        &origin=Colombo,Sri+Lanka
-                                        &destination=Galle,Sri+Lanka
-                                        &waypoints=Kandy|Sigiriya|Anuradhapura|Polonnaruwa|Ella|Yala|Mirissa
+                                    src={`https://www.google.com/maps/embed/v1/directions?
+                                        key=AIzaSyAg2I4Iihq-LBTKqNvTpr77o1MX550vYEo
+                                        &origin=Colombo
+                                        &destination=Colombo
+                                        &waypoints=
+                                            Kosgoda+Turtle+Conservation+Center|
+                                            Madu+Ganga+River+Safari|
+                                            Seenigama+Devalaya+Temple|
+                                            Galle+Fort|
+                                            Rumassala+Japanese+Peace+Pagoda|
+                                            Stilt+Fishermen+Koggala|
+                                            Koggala+Lake+Madol+Duwa|
+                                            Glass+Bottom+Boat+Hikkaduwa|
+                                            Ambalangoda+Mask+Museum|
+                                            Mirissa+Whale+Watching|
+                                            Hummanaya+Blowhole
                                         &avoid=tolls|highways`
-                                    }>
-                                </iframe>
-
+                                        .replace(/\s+/g, "")
+                                    }
+                                ></iframe>
                             </div>
 
                             <div className="route-info">
@@ -1355,7 +1367,7 @@ function ColomboBenthotaGalle() {
                                             `;
 
                                     // ✅ SEND WHATSAPP
-                                    const whatsappNumber = "94771087217"; // your WhatsApp number
+                                    const whatsappNumber = "94773562768"; // your WhatsApp number
                                     const whatsappURL =
                                         "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1363,7 +1375,7 @@ function ColomboBenthotaGalle() {
 
                                     // ✅ SEND EMAIL
                                     const mailto =
-                                        "mailto:ceylongracetravels@gmail.com" +
+                                        "mailto:pearlceylontours01@gmail.com" +
                                         "?subject=" + encodeURIComponent("New Tour Booking") +
                                         "&body=" + encodeURIComponent(fullMessage);
 
@@ -1644,7 +1656,7 @@ function ColomboBenthotaGalle() {
                         <img src={require("../../assets/hile.png")} className="cta-icon" alt="icon" />
                         <div className="cta-text">
                             <h2>Ready To Adventure And Enjoy Natural</h2>
-                            <p>Reach Ceylon Grace Travels For A Secure, Luxurious, And Unforgettable Adventure!</p>
+                            <p>Reach Pearl Ceylon Tours For A Secure, Luxurious, And Unforgettable Adventure!</p>
                         </div>
                     </div>
 

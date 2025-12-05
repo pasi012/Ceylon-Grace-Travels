@@ -188,7 +188,7 @@ function ColomboKithulgala() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -196,7 +196,7 @@ function ColomboKithulgala() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -596,7 +596,7 @@ function ColomboKithulgala() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -604,7 +604,7 @@ function ColomboKithulgala() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -988,7 +988,7 @@ function ColomboKithulgala() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -996,7 +996,7 @@ function ColomboKithulgala() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1283,15 +1283,19 @@ function ColomboKithulgala() {
                                     style={{ border: 0 }}
                                     loading="lazy"
                                     allowFullScreen
-                                    src={`https://www.google.com/maps/embed/v1/directions?key=AIzaSyAMSBflSdMe2iqCbOsRtIGLTUC-SOjBxmg&origin=CITY1&destination=CITY2
+                                    src={`https://www.google.com/maps/embed/v1/directions?
+                                        key=AIzaSyAg2I4Iihq-LBTKqNvTpr77o1MX550vYEo
                                         &origin=Colombo,Sri+Lanka
-                                        &destination=Galle,Sri+Lanka
-                                        &waypoints=Kandy|Sigiriya|Anuradhapura|Polonnaruwa|Ella|Yala|Mirissa
-                                        &avoid=tolls|highways`
-                                    }>
-                                </iframe>
-
+                                        &destination=Colombo,Sri+Lanka
+                                        &waypoints=
+                                            Kithulgala+White+Water+Rafting+Base|
+                                            Kithulgala+Rock+Pool+Sliding|
+                                            Kithulgala+Jungle+Trekking+Trail
+                                            &avoid=tolls|highways`
+                                        .replace(/\s+/g, "")}
+                                ></iframe>
                             </div>
+
 
                             <div className="route-info">
                                 <p><strong>Distance:</strong> 185.8 km</p>
@@ -1335,7 +1339,7 @@ function ColomboKithulgala() {
                                             `;
 
                                     // ✅ SEND WHATSAPP
-                                    const whatsappNumber = "94771087217"; // your WhatsApp number
+                                    const whatsappNumber = "94773562768"; // your WhatsApp number
                                     const whatsappURL =
                                         "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1343,7 +1347,7 @@ function ColomboKithulgala() {
 
                                     // ✅ SEND EMAIL
                                     const mailto =
-                                        "mailto:ceylongracetravels@gmail.com" +
+                                        "mailto:pearlceylontours01@gmail.com" +
                                         "?subject=" + encodeURIComponent("New Tour Booking") +
                                         "&body=" + encodeURIComponent(fullMessage);
 
@@ -1624,7 +1628,7 @@ function ColomboKithulgala() {
                         <img src={require("../../assets/hile.png")} className="cta-icon" alt="icon" />
                         <div className="cta-text">
                             <h2>Ready To Adventure And Enjoy Natural</h2>
-                            <p>Reach Ceylon Grace Travels For A Secure, Luxurious, And Unforgettable Adventure!</p>
+                            <p>Reach Pearl Ceylon Tours For A Secure, Luxurious, And Unforgettable Adventure!</p>
                         </div>
                     </div>
 

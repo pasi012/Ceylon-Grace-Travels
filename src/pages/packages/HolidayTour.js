@@ -263,7 +263,7 @@ function HolidayTour() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -271,7 +271,7 @@ function HolidayTour() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -573,7 +573,7 @@ function HolidayTour() {
                                     <h2>Introduction</h2>
 
                                     <p>
-                                        We strongly believe that special need people have same rights to enjoy and like others. Holidays for people with disabilities in Sri Lanka are specially designed differently abled children / paraplegic travelers and others who are seeking for wheelchair friendly holidays in Sri Lanka.. The "Accessible Holidays" team at Ceylon Grace Travels is well-trained and dedicated to organizing HOLIDAYS FOR PEOPLE WITH SPECIAL NEEDS.
+                                        We strongly believe that special need people have same rights to enjoy and like others. Holidays for people with disabilities in Sri Lanka are specially designed differently abled children / paraplegic travelers and others who are seeking for wheelchair friendly holidays in Sri Lanka.. The "Accessible Holidays" team at Pearl Ceylon Tours is well-trained and dedicated to organizing HOLIDAYS FOR PEOPLE WITH SPECIAL NEEDS.
                                     </p>
 
                                     <p>
@@ -581,7 +581,7 @@ function HolidayTour() {
                                     </p>
 
                                     <p>
-                                        Every person has different accessibility needs, and Ceylon Grace Travels is ready to find the most suitable vacations for people with disabilities in Sri Lanka according to their requirements. For us, it is a task to find the right level of relaxation for people with disabilities, ensuring easy access to all parts of the relaxation, from transportation and accommodation to activities and excursions. But our dedicated team is fully informed about the resources available in the country to organize vacations for people with disabilities and develop the best possible plan.
+                                        Every person has different accessibility needs, and Pearl Ceylon Tours is ready to find the most suitable vacations for people with disabilities in Sri Lanka according to their requirements. For us, it is a task to find the right level of relaxation for people with disabilities, ensuring easy access to all parts of the relaxation, from transportation and accommodation to activities and excursions. But our dedicated team is fully informed about the resources available in the country to organize vacations for people with disabilities and develop the best possible plan.
                                     </p>
 
                                 </section>
@@ -686,7 +686,7 @@ function HolidayTour() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -694,7 +694,7 @@ function HolidayTour() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1314,7 +1314,7 @@ function HolidayTour() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94771087217"; // your WhatsApp number
+                                        const whatsappNumber = "94773562768"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1322,7 +1322,7 @@ function HolidayTour() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:ceylongracetravels@gmail.com" +
+                                            "mailto:pearlceylontours01@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1613,15 +1613,39 @@ function HolidayTour() {
                                     style={{ border: 0 }}
                                     loading="lazy"
                                     allowFullScreen
-                                    src={`https://www.google.com/maps/embed/v1/directions?key=AIzaSyAMSBflSdMe2iqCbOsRtIGLTUC-SOjBxmg&origin=CITY1&destination=CITY2
-                                        &origin=Colombo,Sri+Lanka
-                                        &destination=Galle,Sri+Lanka
-                                        &waypoints=Kandy|Sigiriya|Anuradhapura|Polonnaruwa|Ella|Yala|Mirissa
+                                    src={
+                                        `https://www.google.com/maps/embed/v1/directions?
+                                        key=AIzaSyAg2I4Iihq-LBTKqNvTpr77o1MX550vYEo
+                                        &origin=Bandaranaike+International+Airport
+                                        &destination=Colombo
+                                        &waypoints=
+                                            Negombo|
+                                            Kandy|
+                                            Peradeniya+Botanical+Garden|
+                                            Kandy+Lake|
+                                            Kandy+City|
+                                            Nalanda+Gedige|
+                                            Matale+Spice+Garden|
+                                            Dambulla|
+                                            Hirivaduwa+Village|
+                                            Anuradhapura|
+                                            Minneriya+National+Park|
+                                            Nuwara+Eliya|
+                                            Ramboda+Falls|
+                                            Damro+Tea+Factory|
+                                            Gregory+Lake|
+                                            Hakgala+Botanical+Garden|
+                                            Victoria+Park+Nuwara+Eliya|
+                                            Yala+National+Park|
+                                            Mirissa|
+                                            Galle|
+                                            Kosgoda+Turtle+Hatchery
                                         &avoid=tolls|highways`
-                                    }>
-                                </iframe>
-
+                                            .replace(/\s+/g, "")
+                                    }
+                                ></iframe>
                             </div>
+
 
                             <div className="route-info">
                                 <p><strong>Distance:</strong> 958.5 km</p>
@@ -1665,7 +1689,7 @@ function HolidayTour() {
                                             `;
 
                                     // ✅ SEND WHATSAPP
-                                    const whatsappNumber = "94771087217"; // your WhatsApp number
+                                    const whatsappNumber = "94773562768"; // your WhatsApp number
                                     const whatsappURL =
                                         "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1673,7 +1697,7 @@ function HolidayTour() {
 
                                     // ✅ SEND EMAIL
                                     const mailto =
-                                        "mailto:ceylongracetravels@gmail.com" +
+                                        "mailto:pearlceylontours01@gmail.com" +
                                         "?subject=" + encodeURIComponent("New Tour Booking") +
                                         "&body=" + encodeURIComponent(fullMessage);
 
@@ -1954,7 +1978,7 @@ function HolidayTour() {
                         <img src={require("../../assets/hile.png")} className="cta-icon" alt="icon" />
                         <div className="cta-text">
                             <h2>Ready To Adventure And Enjoy Natural</h2>
-                            <p>Reach Ceylon Grace Travels For A Secure, Luxurious, And Unforgettable Adventure!</p>
+                            <p>Reach Pearl Ceylon Tours For A Secure, Luxurious, And Unforgettable Adventure!</p>
                         </div>
                     </div>
 
