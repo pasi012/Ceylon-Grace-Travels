@@ -1,0 +1,305 @@
+body,
+.destinations-container {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+/* ===== Hero Section ===== */
+.destinations-hero {
+    position: relative;
+    height: 45vh;
+    background: url("../assets/hero-destination.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.destinations-hero .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinations-hero .hero-content {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
+.destinations-hero h1 {
+    font-size: 4.0rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.destinations-hero p {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+/* ===== Grid Section ===== */
+.destinations-grid {
+    padding: 60px 80px;
+    background: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.destination-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-8px);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    filter: brightness(45%);
+    transition: all 0.4s ease;
+}
+
+.destination-card:hover img {
+    filter: brightness(100%);
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.card-overlay p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+}
+
+.card-overlay h3 {
+    font-size: 1.4rem;
+    margin-top: -20px;
+}
+
+/* ===== CTA Section ===== */
+/* Outer wrapper */
+.cta-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    margin-top: 20px;
+}
+
+/* CTA blue box */
+.cta-box {
+    max-height: 100px;
+    background: #247cad;
+    padding: 30px 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    max-width: 120vh;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+
+/* Left icon + text */
+.cta-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-icon {
+    width: 60px;
+    height: auto;
+}
+
+/* Headline + description */
+.cta-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cta-text p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+/* Airplane curved path (same as screenshot) */
+.cta-plane {
+    position: absolute;
+    right: 170px;
+    top: 20px;
+    width: 150px;
+
+    /* Animation */
+    animation: floatBox 3s both infinite;
+}
+
+/* Floating keyframes */
+@keyframes floatBox {
+
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+}
+
+/* Button */
+.cta-btn {
+    background: #fff;
+    color: #247cad;
+    font-weight: 700;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #1c5f85;
+    color: #fff;
+}
+
+/* =========================================================
+   ============== 1024px (TABLETS LANDSCAPE) ===============
+   ========================================================= */
+@media (max-width: 1024px) {
+
+    /* HERO */
+    .destinations-hero {
+        height: 40vh;
+        margin-top: 120px;
+    }
+
+    .destinations-hero h1 {
+        font-size: 3rem;
+    }
+
+    .destinations-hero p {
+        font-size: 0.9rem;
+    }
+
+    /* GRID */
+    .destinations-grid {
+        padding: 50px 60px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+    }
+
+    .destination-card img {
+        height: 260px;
+        object-fit: cover;
+    }
+
+}
+
+/* =========================================================
+   ============== 768px (TABLETS PORTRAIT) =================
+   ========================================================= */
+@media (max-width: 768px) {
+
+    /* HERO */
+    .destinations-hero {
+        height: 35vh;
+        margin-top: 20%;
+    }
+
+    .destinations-hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .destinations-hero p {
+        font-size: 0.85rem;
+    }
+
+    /* GRID */
+    .destinations-grid {
+        padding: 40px 35px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+    .destination-card img {
+        height: 100%;
+        object-fit: fill;
+    }
+
+}
+
+/* =========================================================
+   ================== 480px (MOBILE) ========================
+   ========================================================= */
+@media (max-width: 480px) {
+
+    /* HERO */
+    .destinations-hero {
+        height: 30vh;
+        margin-top: 10%;
+    }
+
+    .destinations-hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .destinations-hero p {
+        font-size: 0.75rem;
+    }
+
+    /* GRID */
+    .destinations-grid {
+        padding: 25px 18px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .destination-card img {
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .card-overlay p {
+        font-size: 1rem;
+    }
+
+    .card-overlay h3 {
+        font-size: 1.2rem;
+    }
+
+}
