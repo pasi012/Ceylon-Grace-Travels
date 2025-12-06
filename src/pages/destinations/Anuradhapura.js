@@ -18,7 +18,7 @@ function Anuradhapura() {
 
   const [g3, setG3] = useState("");
   const [g4, setG4] = useState("");
-  const [g5, setG5] = useState("");
+  
   const [g6, setG6] = useState("");
   const [g7, setG7] = useState("");
 
@@ -40,7 +40,7 @@ function Anuradhapura() {
 
     getDownloadURL(ref(storage, "anuradhapura2.jpg")).then(setG3);
     getDownloadURL(ref(storage, "anuradhapura3.jpg")).then(setG4);
-    getDownloadURL(ref(storage, "anuradhapura4.jpg")).then(setG5);
+    
     getDownloadURL(ref(storage, "anuradhapura5.jpg")).then(setG6);
     getDownloadURL(ref(storage, "anuradhapura6.jpg")).then(setG7);
 
@@ -106,7 +106,7 @@ function Anuradhapura() {
           <div className="mirissa-top-gallery">
             <img src={g3} alt="" />
             <img src={g4} alt="" />
-            <img src={g5} alt="" />
+            
           </div>
 
           <p>

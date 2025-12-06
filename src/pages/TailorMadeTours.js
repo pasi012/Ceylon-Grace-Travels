@@ -50,39 +50,40 @@ function TailorMadeTours() {
 
         // ⭐ Message text for WhatsApp + Email
         const fullMessage = `
-            Tailor Made Tour Request:
+        Tailor Made Tour Request:
 
-            PERSONAL DETAILS
-            --------------------
-            Name: ${form.firstName} ${form.lastName}
-            Country: ${form.country}
-            Email: ${form.email}
-            Phone: ${form.countryCode} ${form.phone}
-            WhatsApp: ${form.whatsapp}
+        PERSONAL DETAILS
+        --------------------
+        Name: ${form.firstName} ${form.lastName}
+        Country: ${form.country}
+        Email: ${form.email}
+        Phone: ${form.countryCode} ${form.phone}
+        WhatsApp: ${form.whatsapp}
 
-            TOUR INFORMATION
-            --------------------
-            Arrival: ${form.arrival}
-            Pick up Location: ${form.pickup}
-            Departure: ${form.departure}
-            Pax: ${form.pax}
-            Children: ${form.children}
-            Hotel Category: ${form.hotel}
-            Rooms: ${form.rooms}
-            Budget: ${form.budget}
+        TOUR INFORMATION
+        --------------------
+        Arrival: ${form.arrival}
+        Pick up Location: ${form.pickup}
+        Departure: ${form.departure}
+        Pax: ${form.pax}
+        Children: ${form.children}
+        Hotel Category: ${form.hotel}
+        Rooms: ${form.rooms}
+        Budget: ${form.budget}
+        Vehicle: ${form.vehicle}
 
-            INTERESTS
-            --------------------
-            ${form.interests.join(", ")}
+        INTERESTS
+        --------------------
+        ${form.interests.join(", ")}
 
-            TOUR TYPE
-            --------------------
-            ${form.tourType}
+        TOUR TYPE
+        --------------------
+        ${form.tourType}
 
-            ADDITIONAL NOTES
-            --------------------
-            ${form.message}
-        `;
+        ADDITIONAL NOTES
+        --------------------
+        ${form.message}
+    `;
 
         // ⭐ WhatsApp send
         const whatsappNumber = "94771087217";
@@ -93,6 +94,7 @@ function TailorMadeTours() {
         const emailURL = `mailto:ceylongracetravels@gmail.com?subject=Tailor Made Tour Request&body=${encodeURIComponent(fullMessage)}`;
         window.location.href = emailURL;
     };
+
 
     return (
         <div className="tailor-container">
@@ -395,6 +397,17 @@ function TailorMadeTours() {
                             <option value="19">19</option>
                             <option value="20">20</option>
                         </select>
+                        <select name="vehicle" onChange={handleChange}>
+                            <option value="">Select Vehicle Type</option>
+
+                            <option value="Suzuki's Wagon R (2 Seats)">Suzuki's Wagon R (2 Seats)</option>
+                            <option value="Toyota Premio (2 Seats)">Toyota Premio (2 Seats)</option>
+                            <option value="Toyota Aqua (2 Seats)">Toyota Aqua (2 Seats)</option>
+                            <option value="Toyota Hiace Van (6 Seats)">Toyota Hiace Van (6 Seats)</option>
+                            <option value="Toyota Hiace High Roof Van (6 Seats)">Toyota Hiace High Roof Van (6 Seats)</option>
+                            <option value="Mitsubishi Rosa Bus (12 Seats)">Mitsubishi Rosa Bus (12 Seats)</option>
+                            <option value="King Long Bus (25 Seats)">King Long Bus (25 Seats)</option>
+                        </select>
                         <select name="hotel" onChange={handleChange}>
                             <option value="">Hotel Category</option>
                             <option value="">3 Star</option>
@@ -443,6 +456,7 @@ function TailorMadeTours() {
 
                     <button className="tmt-submit-btn" type="submit">SUBMIT</button>
                 </form>
+
             </section>
 
             {/* ===== CTA Section ===== */}

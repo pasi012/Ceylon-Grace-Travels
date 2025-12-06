@@ -235,6 +235,7 @@ function CultureHeritage() {
                                         const arrival = e.target.arrival.value;
                                         const departure = e.target.departure.value;
                                         const interest = e.target.interest.value;
+                                        const vehicle = e.target.vehicle.value;   // ✅ NEW
                                         const adults = e.target.adults.value;
                                         const kids = e.target.kids.value;
                                         const message = e.target.message.value;
@@ -249,6 +250,7 @@ function CultureHeritage() {
                                                 📅 Arrival: ${arrival}
                                                 📅 Departure: ${departure}
                                                 🎯 Interest: ${interest}
+                                                🚗 Vehicle Preference: ${vehicle}
                                                 👨‍👩‍👧 Adults: ${adults}
                                                 🧒 Kids: ${kids}
 
@@ -256,7 +258,7 @@ function CultureHeritage() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94773562768"; // your WhatsApp number
+                                        const whatsappNumber = "94771087217"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -264,7 +266,7 @@ function CultureHeritage() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:pearlceylontours01@gmail.com" +
+                                            "mailto:ceylongracetravels@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -276,7 +278,7 @@ function CultureHeritage() {
                                     <h3>Book This Tour</h3>
                                     <input name="name" type="text" placeholder="Name *" />
                                     <input name="email" type="email" placeholder="Email Address *" />
-                                    <select name="country">
+                                    <select>
                                         <option>Choose Your Country *</option>
                                         <option>Afghanistan</option>
                                         <option>Albania</option>
@@ -497,6 +499,17 @@ function CultureHeritage() {
                                         <option>Honeymoon</option>
                                         <option>Ramayana Trail</option>
                                         <option>All in one Trails</option>
+                                    </select>
+
+                                    <select name="vehicle">
+                                        <option>Select Vehicle Type *</option>
+                                        <option>Suzuki's Wagon R (2 Seats)</option>
+                                        <option>Toyota Premio (2 Seats)</option>
+                                        <option>Toyota Aqua (2 Seats)</option>
+                                        <option>Toyota Hiace Van (6 Seats)</option>
+                                        <option>Toyota Hiace High Roof Van (6 Seats)</option>
+                                        <option>Mitsubishi Rosa Bus (12 Seats)</option>
+                                        <option>King Long Bus (25 Seats)</option>
                                     </select>
 
                                     <input name="adults" type="number" placeholder="Adults *" />
@@ -666,6 +679,7 @@ function CultureHeritage() {
                                         const arrival = e.target.arrival.value;
                                         const departure = e.target.departure.value;
                                         const interest = e.target.interest.value;
+                                        const vehicle = e.target.vehicle.value;   // ✅ NEW
                                         const adults = e.target.adults.value;
                                         const kids = e.target.kids.value;
                                         const message = e.target.message.value;
@@ -680,6 +694,7 @@ function CultureHeritage() {
                                                 📅 Arrival: ${arrival}
                                                 📅 Departure: ${departure}
                                                 🎯 Interest: ${interest}
+                                                🚗 Vehicle Preference: ${vehicle}
                                                 👨‍👩‍👧 Adults: ${adults}
                                                 🧒 Kids: ${kids}
 
@@ -687,7 +702,7 @@ function CultureHeritage() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94773562768"; // your WhatsApp number
+                                        const whatsappNumber = "94771087217"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -695,7 +710,7 @@ function CultureHeritage() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:pearlceylontours01@gmail.com" +
+                                            "mailto:ceylongracetravels@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -707,7 +722,7 @@ function CultureHeritage() {
                                     <h3>Book This Tour</h3>
                                     <input name="name" type="text" placeholder="Name *" />
                                     <input name="email" type="email" placeholder="Email Address *" />
-                                    <select name="country">
+                                    <select>
                                         <option>Choose Your Country *</option>
                                         <option>Afghanistan</option>
                                         <option>Albania</option>
@@ -928,6 +943,17 @@ function CultureHeritage() {
                                         <option>Honeymoon</option>
                                         <option>Ramayana Trail</option>
                                         <option>All in one Trails</option>
+                                    </select>
+
+                                    <select name="vehicle">
+                                        <option>Select Vehicle Type *</option>
+                                        <option>Suzuki's Wagon R (2 Seats)</option>
+                                        <option>Toyota Premio (2 Seats)</option>
+                                        <option>Toyota Aqua (2 Seats)</option>
+                                        <option>Toyota Hiace Van (6 Seats)</option>
+                                        <option>Toyota Hiace High Roof Van (6 Seats)</option>
+                                        <option>Mitsubishi Rosa Bus (12 Seats)</option>
+                                        <option>King Long Bus (25 Seats)</option>
                                     </select>
 
                                     <input name="adults" type="number" placeholder="Adults *" />
@@ -1189,6 +1215,7 @@ function CultureHeritage() {
                                         const arrival = e.target.arrival.value;
                                         const departure = e.target.departure.value;
                                         const interest = e.target.interest.value;
+                                        const vehicle = e.target.vehicle.value;   // ✅ NEW
                                         const adults = e.target.adults.value;
                                         const kids = e.target.kids.value;
                                         const message = e.target.message.value;
@@ -1203,6 +1230,7 @@ function CultureHeritage() {
                                                 📅 Arrival: ${arrival}
                                                 📅 Departure: ${departure}
                                                 🎯 Interest: ${interest}
+                                                🚗 Vehicle Preference: ${vehicle}
                                                 👨‍👩‍👧 Adults: ${adults}
                                                 🧒 Kids: ${kids}
 
@@ -1210,7 +1238,7 @@ function CultureHeritage() {
                                             `;
 
                                         // ✅ SEND WHATSAPP
-                                        const whatsappNumber = "94773562768"; // your WhatsApp number
+                                        const whatsappNumber = "94771087217"; // your WhatsApp number
                                         const whatsappURL =
                                             "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1218,7 +1246,7 @@ function CultureHeritage() {
 
                                         // ✅ SEND EMAIL
                                         const mailto =
-                                            "mailto:pearlceylontours01@gmail.com" +
+                                            "mailto:ceylongracetravels@gmail.com" +
                                             "?subject=" + encodeURIComponent("New Tour Booking") +
                                             "&body=" + encodeURIComponent(fullMessage);
 
@@ -1230,7 +1258,7 @@ function CultureHeritage() {
                                     <h3>Book This Tour</h3>
                                     <input name="name" type="text" placeholder="Name *" />
                                     <input name="email" type="email" placeholder="Email Address *" />
-                                    <select name="country">
+                                    <select>
                                         <option>Choose Your Country *</option>
                                         <option>Afghanistan</option>
                                         <option>Albania</option>
@@ -1453,6 +1481,17 @@ function CultureHeritage() {
                                         <option>All in one Trails</option>
                                     </select>
 
+                                    <select name="vehicle">
+                                        <option>Select Vehicle Type *</option>
+                                        <option>Suzuki's Wagon R (2 Seats)</option>
+                                        <option>Toyota Premio (2 Seats)</option>
+                                        <option>Toyota Aqua (2 Seats)</option>
+                                        <option>Toyota Hiace Van (6 Seats)</option>
+                                        <option>Toyota Hiace High Roof Van (6 Seats)</option>
+                                        <option>Mitsubishi Rosa Bus (12 Seats)</option>
+                                        <option>King Long Bus (25 Seats)</option>
+                                    </select>
+
                                     <input name="adults" type="number" placeholder="Adults *" />
                                     <input name="kids" type="number" placeholder="Kids" />
 
@@ -1587,7 +1626,7 @@ function CultureHeritage() {
                                             `;
 
                                     // ✅ SEND WHATSAPP
-                                    const whatsappNumber = "94773562768"; // your WhatsApp number
+                                    const whatsappNumber = "94771087217"; // your WhatsApp number
                                     const whatsappURL =
                                         "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(fullMessage);
 
@@ -1595,7 +1634,7 @@ function CultureHeritage() {
 
                                     // ✅ SEND EMAIL
                                     const mailto =
-                                        "mailto:pearlceylontours01@gmail.com" +
+                                        "mailto:ceylongracetravels@gmail.com" +
                                         "?subject=" + encodeURIComponent("New Tour Booking") +
                                         "&body=" + encodeURIComponent(fullMessage);
 

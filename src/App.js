@@ -32,6 +32,8 @@ import ColomboSigiriya from "./pages/daypackages/ColomboSigiriya";
 import ColomboKithulgala from "./pages/daypackages/ColomboKithulgala";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndCondition from "./pages/TermsAndCondition";
+import HerbalGarden from "./pages/destinations/HerbalGarden";
+import Gems from "./pages/destinations/Gems";
 
 function App() {
   return (
@@ -60,6 +62,8 @@ function App() {
         <Route path="/destinations/Kandy" element={<Kandy />} />
         <Route path="/destinations/Nuwara-Eliya" element={<NuwaraEliya />} />
         <Route path="/destinations/Eco-Escapes" element={<EcoEscapes />} />
+        <Route path="/destinations/Herbal-Garden" element={<HerbalGarden />} />
+        <Route path="/destinations/Gems" element={<Gems />} />
 
         {/* Packages */}
         <Route path="/tour-package/CultureHeritage" element={<CultureHeritage />} />

@@ -75,6 +75,8 @@ function Home() {
   const [destiImg7, setDestiImg7] = useState("");
   const [destiImg8, setDestiImg8] = useState("");
   const [destiImg9, setDestiImg9] = useState("");
+  const [destiImg10, setDestiImg10] = useState("");
+  const [destiImg11, setDestiImg11] = useState("");
 
   useEffect(() => {
     getDownloadURL(ref(storage, "feature1.jpg")).then(setDestiImg1);
@@ -86,6 +88,8 @@ function Home() {
     getDownloadURL(ref(storage, "feature7.jpg")).then(setDestiImg7);
     getDownloadURL(ref(storage, "feature8.jpg")).then(setDestiImg8);
     getDownloadURL(ref(storage, "feature9.jpg")).then(setDestiImg9);
+    getDownloadURL(ref(storage, "feature10.jpg")).then(setDestiImg10);
+    getDownloadURL(ref(storage, "feature11.jpg")).then(setDestiImg11);
   }, []);
 
   //why choose us
@@ -109,14 +113,16 @@ function Home() {
   const [vehicleImg4, setVehicleImg4] = useState("");
   const [vehicleImg5, setVehicleImg5] = useState("");
   const [vehicleImg6, setVehicleImg6] = useState("");
+  const [vehicleImg7, setVehicleImg7] = useState("");
 
   useEffect(() => {
-    getDownloadURL(ref(storage, "premio.jpg")).then(setVehicleImg1);
-    getDownloadURL(ref(storage, "noah.jpg")).then(setVehicleImg2);
-    getDownloadURL(ref(storage, "hiace.jpg")).then(setVehicleImg3);
-    getDownloadURL(ref(storage, "mitsubishiSafari.jpg")).then(setVehicleImg4);
-    getDownloadURL(ref(storage, "mitsubishiRosa.png")).then(setVehicleImg5);
-    getDownloadURL(ref(storage, "kingLong.jpg")).then(setVehicleImg6);
+    getDownloadURL(ref(storage, "Suzuki's Wagon R.jpg")).then(setVehicleImg1);
+    getDownloadURL(ref(storage, "premio.jpg")).then(setVehicleImg2);
+    getDownloadURL(ref(storage, "Toyota Aqua.jpg")).then(setVehicleImg3);
+    getDownloadURL(ref(storage, "hiace.jpg")).then(setVehicleImg4);
+    getDownloadURL(ref(storage, "Toyota Hiace High Roof.jpg")).then(setVehicleImg5);
+    getDownloadURL(ref(storage, "mitsubishiRosa.png")).then(setVehicleImg6);
+    getDownloadURL(ref(storage, "kingLong.jpg")).then(setVehicleImg7);
   }, []);
 
   //hotel
@@ -615,6 +621,36 @@ function Home() {
               </div>
             </div>
 
+            <div
+              className="destination-card-home"
+              onClick={() => navigate("/destinations/Herbal-Garden")}
+              style={{ cursor: "pointer" }}
+            >
+              {destiImg10 && <img src={destiImg10} alt="Herbal Garden Sri Lanka" />}
+              <div className="destination-info">
+                <p className="location">📍 Herbal Garden, Sri Lanka</p>
+                <h4>Herbal Garden</h4>
+                <p>
+                  A serene Ayurvedic sanctuary filled with healing herbs, medicinal plants, and traditional wellness practices, offering an immersive journey into Sri Lanka’s natural health culture.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="destination-card-home"
+              onClick={() => navigate("/destinations/Gems")}
+              style={{ cursor: "pointer" }}
+            >
+              {destiImg11 && <img src={destiImg11} alt="Gems of Sri Lanka" />}
+              <div className="destination-info">
+                <p className="location">📍 Gems of Sri Lanka</p>
+                <h4>Gems of Sri Lanka</h4>
+                <p>
+                  Discover Sri Lanka’s legendary gemstone heritage, where vibrant blue sapphires, rare gems, and centuries-old mining traditions come together to create a sparkling journey into the island’s natural treasures.
+                </p>
+              </div>
+            </div>
+
           </div>
 
           <button className="arrow-btn right-des" id="destNextBtn">
@@ -810,7 +846,7 @@ function Home() {
             <div className="vehicle-img-wrapper color-1">
               {vehicleImg1 && <img src={vehicleImg1} />}
             </div>
-            <h4 className="vehicle-name">Toyota Premio</h4>
+            <h4 className="vehicle-name">Suzuki's Wagon R</h4>
             <p className="vehicle-seats">(2 Seats)</p>
           </div>
 
@@ -818,29 +854,37 @@ function Home() {
             <div className="vehicle-img-wrapper color-2">
               {vehicleImg2 && <img src={vehicleImg2} />}
             </div>
-            <h4 className="vehicle-name">Toyota Noah</h4>
-            <p className="vehicle-seats">(4 Seats)</p>
+            <h4 className="vehicle-name">Toyota Premio</h4>
+            <p className="vehicle-seats">(2 Seats)</p>
           </div>
 
           <div className="vehicle-card">
             <div className="vehicle-img-wrapper color-3">
               {vehicleImg3 && <img src={vehicleImg3} />}
             </div>
-            <h4 className="vehicle-name">Toyota Hiace</h4>
-            <p className="vehicle-seats">(6 Seats)</p>
+            <h4 className="vehicle-name">Toyota Aqua</h4>
+            <p className="vehicle-seats">(2 Seats)</p>
           </div>
 
           <div className="vehicle-card">
             <div className="vehicle-img-wrapper color-4">
               {vehicleImg4 && <img src={vehicleImg4} />}
             </div>
-            <h4 className="vehicle-name">Mitsubishi Cab – Safari</h4>
-            <p className="vehicle-seats">(3 Seats)</p>
+            <h4 className="vehicle-name">Toyota Hiace Van</h4>
+            <p className="vehicle-seats">(6 Seats)</p>
           </div>
 
           <div className="vehicle-card">
             <div className="vehicle-img-wrapper color-5">
               {vehicleImg5 && <img src={vehicleImg5} />}
+            </div>
+            <h4 className="vehicle-name">Toyota Hiace High Roof Van</h4>
+            <p className="vehicle-seats">(6 Seats)</p>
+          </div>
+
+          <div className="vehicle-card">
+            <div className="vehicle-img-wrapper color-6">
+              {vehicleImg6 && <img src={vehicleImg6} />}
             </div>
             <h4 className="vehicle-name">Mitsubishi Rosa Bus</h4>
             <p className="vehicle-seats">(12 Seats)</p>
@@ -848,7 +892,7 @@ function Home() {
 
           <div className="vehicle-card">
             <div className="vehicle-img-wrapper color-6">
-              {vehicleImg6 && <img src={vehicleImg6} />}
+              {vehicleImg7 && <img src={vehicleImg7} />}
             </div>
             <h4 className="vehicle-name">King Long Bus</h4>
             <p className="vehicle-seats">(25 Seats)</p>

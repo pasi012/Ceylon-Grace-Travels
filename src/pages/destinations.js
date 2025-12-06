@@ -24,6 +24,8 @@ function Destinations() {
     const [kandy, setKandy] = useState("");
     const [nuwaraEliya, setNuwaraEliya] = useState("");
     const [ecoEscapes, setEcoEscapes] = useState("");
+    const [herbalGarden, setHerbalGarden] = useState("");
+    const [gems, setGems] = useState("");
 
     // Load images
     useEffect(() => {
@@ -36,6 +38,8 @@ function Destinations() {
         getDownloadURL(ref(storage, "kandy.jpg")).then(setKandy);
         getDownloadURL(ref(storage, "nuwara-eliya.jpg")).then(setNuwaraEliya);
         getDownloadURL(ref(storage, "eco-escapes.jpg")).then(setEcoEscapes);
+        getDownloadURL(ref(storage, "herbal-garden.jpg")).then(setHerbalGarden);
+        getDownloadURL(ref(storage, "gems.jpg")).then(setGems);
     }, []);
 
     const destinations = [
@@ -48,6 +52,8 @@ function Destinations() {
         { name: "Kandy", image: kandy },
         { name: "Nuwara Eliya", image: nuwaraEliya },
         { name: "Eco Escapes", image: ecoEscapes },
+        { name: "Herbal Garden", image: herbalGarden },
+        { name: "Gems", image: gems },
     ];
 
     // Convert name → URL slug (ex: Nuwara Eliya → nuwara-eliya)
@@ -60,8 +66,8 @@ function Destinations() {
             <section className="destinations-hero" data-aos="fade-down">
                 <div className="overlay">
                     <div className="hero-content">
-                        <h1>Our Tour Destinations</h1>
-                        <p>Home &gt; Our Tour Destinations</p>
+                        <h1>Tour Destinations</h1>
+                        <p>Home &gt; Tour Destinations</p>
                     </div>
                 </div>
             </section>
